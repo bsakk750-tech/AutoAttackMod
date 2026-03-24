@@ -1,0 +1,1 @@
+plugins {\n    id("fabric-loom") version "0.10-SNAPSHOT"\n}\n\njava {\n    toolchain {\n        languageVersion.set(JavaLanguageVersion.of(17))\n    }\n}\n\n// Specify the Minecraft version you are targeting\nminecraft {\n    version("1.21")\n}
