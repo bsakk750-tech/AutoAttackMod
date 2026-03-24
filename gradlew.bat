@@ -1,0 +1,10 @@
+@ECHO OFF
+SETLOCAL
+
+SET GRADLE_USER_HOME=%USERPROFILE%/.gradle
+SET GRADLE_OPTS=-Xmx1536m
+SET JAVA_HOME=C:\Program Files\Java\jdk1.8.0_101
+SET PATH=%JAVA_HOME%\bin;%PATH%
+
+CALL "%~dp0gradle\bin\gradle" %*
+ENDLOCAL
